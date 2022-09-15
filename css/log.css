@@ -1,0 +1,48 @@
+body {
+    background:  linear-gradient(rgba(0, 0, 5, 0.89),rgba(0, 0, 50, 0.5)),url(n1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.btn-group button {
+  background: transparent;
+  color: #F0F0F0;
+  border: 2px solid #F0F0F0;
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 25px 30px; /* Some padding */
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0px 2px;
+  float: left; /* Float the buttons side by side */
+ 
+}
+h1 {
+color: aliceblue;
+  margin-top: 50px;
+  margin-left: 400px;
+  font-family: sans-serif;
+  font-style: inherit;
+}
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color:transparent;
+}
+
+.container {
+  margin-top: 150px;
+  
+}
+
